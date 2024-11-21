@@ -1,12 +1,12 @@
 ## The extended AI-Economist which will be compared with the extended Concordia, a generative agent-based model (GABM)
 ## Incentives to Build Houses, Trade Houses, or Trade House Building Skills in Simulated Worlds under Various Governing Systems or Institutions: Comparing Multi-agent Reinforcement Learning to Generative Agent-based Model
 
-- [The Paper](https://drive.google.com/file/d/1Tz5spfNeCmmC1ZFrkxa83CpKrrKKKEaT/view?usp=drive_link)
-- [The Results](https://github.com/aslansd/modified-ai-economist-wc/tree/main/tutorials/Results)
-- [The Notebook for the Full-Libertarian Governing System](https://github.com/aslansd/modified-ai-economist-wc/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_communication_under_libertarian_and_utilitarian_governing_systems_RLlib_FullLibertarian.ipynb)
-- [The Notebook for the Semi-Libertarian/Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-wc/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_communication_under_libertarian_and_utilitarian_governing_systems_RLlib_SemiLibertarianUtilitarian.ipynb)
-- [The Notebook for the Full-Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-wc/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_communication_under_libertarian_and_utilitarian_governing_systems_RLlib_FullUtilitarian.ipynb)
-- [The Notebook for Generating the Plots of the Paper](https://github.com/aslansd/modified-ai-economist-wc/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_communication_under_libertarian_and_utilitarian_governing_systems_Plotting.ipynb)
+- [The Paper](https://drive.google.com/file/d/18rxxQiXvXzZAZKzRz39sD77t2u6YnCcW/view?usp=drive_link)
+- [The Results](https://github.com/aslansd/modified-ai-economist-gabm/tree/main/tutorials/Results)
+- [The Notebook for the Full-Libertarian Governing System](https://github.com/aslansd/modified-ai-economist-gabm/blob/main/tutorials/comparing_multi-agent_reinforcement_learning_to_generative_agent-based_model_RLlib_FullLibertarian.ipynb)
+- [The Notebook for the Semi-Libertarian/Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-gabm/blob/main/tutorials/comparing_multi-agent_reinforcement_learning_to_generative_agent-based_model_RLlib_SemiLibertarianUtilitarian.ipynb)
+- [The Notebook for the Full-Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-gabm/blob/main/tutorials/comparing%20multi-agent%20reinforcement%20learning%20to%20generative%20agent-based%20model_FullUtilitarian.ipynb)
+- [The Notebook for Generating the Plots of the Paper](https://github.com/aslansd/modified-ai-economist-gabm/blob/main/tutorials/comparing_multi-agent_reinforcement_learning_to_generative_agent-based_model_Plotting.ipynb)
 
 ### Abstract
 
