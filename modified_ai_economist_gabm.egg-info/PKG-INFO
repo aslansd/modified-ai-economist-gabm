@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: modified-ai-economist-gabm
+Version: 1.1.0
+Summary: Modified AI-Economist with Teaching: A Multi-agent Reinforcement Learning Study of Evolution of Teaching under Libertarian and Utilitarian Governing Systems
+Home-page: https://github.com/aslansd/modified-ai-economist-gabm
+Author: Aslan Satary Dizaji
+Author-email: asataryd@umich.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+## Modified AI-Economist with Teaching: A Multi-agent Reinforcement Learning Study of Evolution of Teaching under Libertarian and Utilitarian Governing Systems
+
+- [The Paper](https://drive.google.com/file/d/1Tz5spfNeCmmC1ZFrkxa83CpKrrKKKEaT/view?usp=drive_link)
+- [The Results](https://github.com/aslansd/modified-ai-economist-wt/tree/main/tutorials/Results)
+- [The Notebook for the Full-Libertarian Governing System](https://github.com/aslansd/modified-ai-economist-wt/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_teaching_under_libertarian_and_utilitarian_governing_systems_RLlib_FullLibertarian.ipynb)
+- [The Notebook for the Semi-Libertarian/Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-wt/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_teaching_under_libertarian_and_utilitarian_governing_systems_RLlib_SemiLibertarianUtilitarian.ipynb)
+- [The Notebook for the Full-Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist-wt/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_teaching_under_libertarian_and_utilitarian_governing_systems_RLlib_FullUtilitarian.ipynb)
+- [The Notebook for Generating the Plots of the Paper](https://github.com/aslansd/modified-ai-economist-wt/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_evolution_of_teaching_under_libertarian_and_utilitarian_governing_systems_Plotting.ipynb)
+
+### Abstract
+Laboratory experiments have shown that communication plays an important role in solving social dilemmas. Here, by extending the AI-Economist, a mixed motive multi-agent reinforcement learning environment, I intend to find an answer to the following descriptive question: which governing system does facilitate the emer- gence and evolution of communication and teaching among agents? To answer this question, the AI-Economist is extended by a voting mechanism to simulate three different governing systems across individualistic-collectivistic axis, from Full-Libertarian to Full-Utilitarian governing systems. In the original framework of the AI-Economist, agents are able to build houses individually by collecting mate- rial resources from their environment. Here, the AI-Economist is further extended to include communication with possible misalignment â€“a variant of signaling game â€“by letting agents to build houses together if they are able to name mutually com- plement material resources by the same letter. Moreover, another extension is made to the AI-Economist to include teaching with possible misalignment â€“again a variant of signaling game â€“by letting half the agents as teachers who know how to use mutually complement material resources to build houses but are not capable of building actual houses, and the other half as students who do not have this information but are able to actually build those houses if teachers teach them. I found a strong evidence that collectivistic environment such as Full-Utilitarian system is more favourable for the emergence of communication and teaching, or more precisely, evolution of language alignment. Moreover, I found some evidence that evolution of language alignment through communication and teaching under collectivistic governing systems makes individuals more advantageously inequity averse. As a result, there is a positive correlation between evolution of language alignment and equality in the society.
+
+<p align="center">
+  <img width="800" src="figs/Slide_1.jpeg" />
+</p>
+
+## Installation Instructions
+
+This package was installed and tested in Windows 10 Pro. To install this package from the source, you'll need to have Python 3.7 installed:
+
+1. Clone this repository to your local machine:
+
+ ```
+   git clone www.github.com/aslansd/modified-ai-economist-gabm
+ ```
+
+2. Create a new conda environment (named "modified-ai-economist-gabm" below - replace with anything else) and activate it:
+
+```pyfunctiontypecomment
+   conda create --name modified-ai-economist-gabm python=3.7 --yes
+   conda activate modified-ai-economist-gabm
+```
+
+3. Install as an editable Python package
+
+```pyfunctiontypecomment
+   cd modified-ai-economist-gabm
+   pip install -e .
+```
+
+## Testing your Install
+
+To test your installation, try running:
+
+```
+conda activate modified-ai-economist-gabm
+python -c "import modified_ai_economist_gabm"
+```
